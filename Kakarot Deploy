@@ -629,6 +629,6 @@ pragma solidity ^0.8.0;
 
 contract ItsmyRyb is ERC20 {
     constructor() ERC20("ItsmyRyb", "RYB") {
-        _mint(msg.sender, 1000000000 * 18 ** decimals());
+        _mint(msg.sender, 100000000000 * 18 ** decimals());
     }
 }
